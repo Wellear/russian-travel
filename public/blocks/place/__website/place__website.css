@@ -1,6 +1,6 @@
 .place__website {
-  max-width: 456px;
   margin-left: 40px;
+  max-width: 456px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -11,3 +11,23 @@
     display: none;
   }
 }
+@media screen and (max-width: 1260px) {
+  .place__website {
+    margin-left: 32px;
+  
+  }
+  }
+
+
+@media screen and (max-width: 1020px) {
+  .place__website {
+    margin-le;
+  }
+  }
+
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    
+  }
+  }
