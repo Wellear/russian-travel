@@ -6,28 +6,23 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 767px) {
-  .place__website {
-    display: none;
-  }
-}
 @media screen and (max-width: 1260px) {
   .place__website {
     margin-left: 32px;
-  
+
   }
-  }
+}
 
 
 @media screen and (max-width: 1020px) {
   .place__website {
-    margin-le;
+    margin-left: 28px;
   }
-  }
+}
 
 
 @media screen and (max-width: 767px) {
   .place__website {
-    
+    margin: 0
   }
-  }
+}

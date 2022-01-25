@@ -7,5 +7,6 @@
     .place__header {
         max-width: 288px;
         margin: 0 auto 32px auto;
+        flex-direction: column;
     }
 }
