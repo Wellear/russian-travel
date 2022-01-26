@@ -60,7 +60,7 @@
                 </ul>
             </section>
             <section class="photo-grid">
-                <div class="table">
+                <div class="table"> <!--При удалении разрушается построение гридов, удаление div причинит вред верстке -->
                     <img src="./images/__item_grid-pics-11.jpg" alt="Фото-Поезд" class="table__item">
                     <img src="./images/__item_grid-pics-10.jpg" alt="Фото-Горная вершина" class="table__item">
                     <img src="./images/__item_grid-pics-9.jpg" alt="Фото-Собака" class="table__item">
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="place__container">
-                        <img src="../public/images/__imagedescription-pic-4.jpg" alt="Фото - Куршская коса" class="place__image">
+                        <img src="./images/__imagedescription-pic-4.jpg" alt="Фото - Куршская коса" class="place__image">
                         <div class="place__text">
                             <p class="place__paragraph">
                                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                     <div class="place__container">
-                        <img src="../public/images/__imagedescription-pic-3.jpg" alt="Фото - Кольский" class="place__image">
+                        <img src="./images/__imagedescription-pic-3.jpg" alt="Фото - Кольский" class="place__image">
                         <div class="place__text">
                             <p class="place__paragraph">
                                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="place__container">
-                        <img src="../public/images/__imagedescription-pic-2.jpg" alt="Фото - Алтай" class="place__image">
+                        <img src="./images/__imagedescription-pic-2.jpg" alt="Фото - Алтай" class="place__image">
                         <div class="place__text">
                             <p class="place__paragraph">
                                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                     <div class="place__container">
-                        <img src="../public/images/__imagedescription-pic-1.jpg" alt="Фото - Зимний Байкал" class="place__image">
+                        <img src="./images/__imagedescription-pic-1.jpg" alt="Фото - Зимний Байкал" class="place__image">
                         <div class="place__text">
                             <p class="place__paragraph">
                                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <div class="place__container">
-                        <img src="../public/images/__imagedescription-pic.jpg" alt="Фото - Карелия" class="place__image">
+                        <img src="./images/__imagedescription-pic.jpg" alt="Фото - Карелия" class="place__image">
                         <div class="place__text">
                             <p class="place__paragraph">
                                 Сибирь заканчивается не на Урале, а в Карелии: образующая
@@ -223,7 +223,7 @@
             </section>
             <section class="cover">
                 <a href="" target="_blank" class="cover__link">
-                  <div class="cover__background">
+                  <div class="cover__background"> <!--Не является лишним элементом кода т.к при удалении ломается пикча-->
                     <h2 class="cover__title">До Байкала «на собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                   </div>
